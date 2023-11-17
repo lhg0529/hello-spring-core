@@ -13,6 +13,7 @@ import org.springframework.context.annotation.Configuration;
 
 //생성자 주입
 @Configuration
+
 public class AppConfig {
   @Bean
   public MemberService memberService() {
